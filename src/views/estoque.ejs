@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/styles/estoque-styles.css">
+
+  <title>Estoque | APP Estoque</title>
+</head>
+
+<body>
+  <div class="caixa">
+    <div class="header">
+      <div class="informacao">
+        <h1 class="titulo">Listagem do estoque</h1>
+        <small>Crie sua conta e tenha total acesso a criação <br> e listagem de estoques pertinho de você 👀👀</small>
+      </div>
+    </div>
+    <section class="formulario">
+      <a href="criar-produto">
+        <button type="submit">Criar estoque</button>
+      </a>
+
+      <h2>Estoque</h2>
+
+
+      <ul class="estoque">
+        <% produto.forEach (item=> {%>
+          <li>
+            <%= item.titulo %> - <%= item.fornecedor %> - <%= item.quantidade %>
+          </li>
+          <% })%>
+      </ul>
+
+    </section>
+  </div>
+</body>
+
+</html>

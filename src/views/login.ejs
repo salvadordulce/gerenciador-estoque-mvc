@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/styles/login-styles.css">
+
+  <title>Entrar | APP Estoque</title>
+</head>
+
+<body>
+  <div class="caixa">
+    <div class="header">
+      <div class="informacao">
+        <h1 class="titulo">Faça seu login</h1>
+        <small>Entre na sua conta e comece a gerenciar seus estoques agora mesmo.</small>
+      </div>
+    </div>
+    <form class="formulario" action="/autenticar" method="post">
+      <h2>Entrar</h2>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="senha" required>
+
+      <button type="submit">Entrar no APP</button>
+
+      <a href="/criar-conta">Não possui conta? Criar uma agora mesmo</a>
+    </form>
+  </div>
+</body>
+
+</html>

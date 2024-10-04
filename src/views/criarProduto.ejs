@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/styles/criar-estoque-styles.css">
+
+  <title>Criar Produto</title>
+</head>
+
+<body>
+  <div class="caixa">
+    <div class="header">
+      <div class="informacao">
+        <h1 class="titulo">Crie agora mesmo<br> o estoque do seu produto.</h1>
+      </div>
+    </div>
+    <div class="formulario">
+      <form action="/criar-estoque" method="post" >
+        <h2>Informações do Estoque</h2>
+
+        <label for="titulo">Título do produto</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="local">Fornecedor</label>
+        <input type="text" id="Fornecedor" name="fornecedor" required>
+
+        <label for="data">Quantidade</label>
+        <input type="text" id="Quantidade" name="quantidade" required>
+
+        <button type="submit">Salvar produto</button>
+
+        <a href="/estoque">Voltar para estoque</a>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
+
+</html>
