@@ -33,6 +33,8 @@ CREATE TABLE produtos (
     quantidade INT
 );
 
+select * from clientes where email = "alemao123@gmail.com";
+
 select * from clientes;
 select * from produtos;
 
