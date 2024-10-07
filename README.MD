@@ -41,7 +41,7 @@ select * from produtos;
 
 git clone https://github.com/salvadordulce/gerenciador-estoque-mvc.git
 
-## Entre na pasta do projeto NOME_DA_PASTA
+## Entre na pasta do projeto
 
 gerenciador-estoque-mvc
 
